@@ -1,0 +1,189 @@
+*{
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    outline-color: blanchedalmond;
+    /* background-color: black;  */
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image:url(image/image\ bag.png); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    border-radius:100%;
+}
+p{
+    color: white;
+} 
+            /* atribut */
+.h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    font-style: italic;
+    text-decoration: underline;
+    color:white;
+}
+.A{
+    margin-left: 495px;
+    margin-top:25px;
+}
+.A :hover{
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+    width: 9cm;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.B{
+    margin-left:85px;
+    margin-top:50px;
+}
+.B :hover{
+    background-color: rgb(255, 115, 0);
+    transform: scale(1.1);
+    color: rgb(86, 82, 90);
+    width: 7.7cm;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.C{
+    margin-left: 520px;
+    margin-top: -270px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.C :hover{
+    background-color: rgb(208, 255, 0);
+    transform: scale(1.1);
+    color: rgb(86, 82, 90);
+    width: 7.8cm;
+    cursor: pointer;border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.D{
+    margin-left: 940px;
+    margin-top: -270px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.D :hover{
+    background-color: rgb(59, 57, 59);
+    transform: scale(1.1);
+    color: black;
+    width: 7.8cm;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.E{
+    margin-top: 70px;
+    margin-left:85px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.E :hover{
+    background-color: white;
+    transform: scale(1.1);
+    color: rgb(86, 82, 90);
+    width: 7.8cm;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.F{
+    margin-left: 520px;
+    margin-top: -270px; 
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.F :hover{
+    background-color: rgb(156, 30, 30);
+    transform: scale(1.1);
+    color: black;
+    width: 7.8cm;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.G{
+    margin-left: 940px;
+    margin-top: -270px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.G :hover{
+    background-color: rgb(110, 7, 158);
+    transform: scale(1.1);
+    color: rgb(14, 12, 15);
+    width: 7.8cm;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+        /*responsive design*/
+@media screen and (max-width:380px) {
+    body{
+        background-image:url(image/image\ bag.png); 
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .A{
+        margin-left:20px;
+        margin-top:20px;
+    }
+    .A :hover{
+        transform: scale(1.1);
+        color: black;
+        width:8.8cm;
+    }
+    .B{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .C{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .D{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .E{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .F{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .G{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    }
+
+
+

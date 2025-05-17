@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat',serif;
+    background-image: url(image/image\ bag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+                /* navigation*/
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    
+}
+nav h1{
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+}
+nav .alpha1{
+    margin-top:3px;
+    margin-left:300px ;
+}
+nav .alpha1 a{
+    text-decoration:none;
+    color: brown;
+    margin-right:10px;
+    border-bottom:1px solid brown;
+    padding-bottom:5px;
+}           
+nav .alpha1 a:hover{
+    color: aqua;
+    border-bottom: 1px solid aqua;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: aliceblue;
+    padding: 40px;
+}
+header h1{
+    font-family:'Montserrat',serif;
+    font-size:30px;
+}
+header h2{
+    margin-top:-10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+header button{
+    padding:10px 20px;
+    background:white;
+    color:black;
+    border: none;
+    font-size: 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+button.Parcourir:hover{
+    background-color:aqua;
+    color:white;
+    transform: scale(1.1) ;
+}
+                /* setion pour les produiits */
+.main{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .gauche{
+    flex: 0 0 30%;
+    padding: 20px;
+
+    color: white;
+}
+.main .content .card.droite{
+    flex: 0 0 70%;
+    
+}
+.main .content .card  .droite img{
+    height:200px;
+    width:200px;
+    margin-top: 5px;
+}
+.main .content .card .gauche:hover{
+    background-color: brown;
+    transform: scale(1.1);
+    color:black;
+    border-radius:5px;
+
+}
+                /* footer */
+footer{
+    margin-top: 40px;
+    color: white;
+    padding: 30px 100px;
+    }
+footer h1{
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top:-10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services  .service{
+    margin-right: 30px;
+    padding: 10px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+#footer{
+    color:black;
+}
+.service:hover{
+    background-color:brown;
+    transform: scale(1.1);
+    color:black;
+    border-radius:5px;
+
+}
+                /*animation*/
+span{
+    position: relative;
+    font-family:"lato",sans-serif;
+    color: brown;
+    display: inline-block;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 6px 0 transparent,
+                0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px aqua;
+    animation: bounce 0.4s ease infinite alternate;
+}
+h1 span:nth-child(2){
+    animation-delay: 0.2s;
+}
+h1 span:nth-child(3){
+    animation-delay: 0.3s;
+}
+h1 span:nth-child(4){
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(5){
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(6){
+    animation-delay: 0.6;
+}
+@keyframes bounce {
+    100%{
+        top:-10px;
+        text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 6px 0 transparent,
+        0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 60px 30px aqua;;
+    }
+}
+                /* RESPOSIVE DU SITE.HTML */
+
+@media screen and (max-width:380px){
+    nav .alpha1{
+        margin-left:0px;
+        margin-bottom:20px;
+    }
+    .main .card{
+        margin: 10px;
+    }
+    .main .content .card .droite img{
+        width: 300px;
+        height: 100%;
+        margin-top: 0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding:30px;
+    }
+}

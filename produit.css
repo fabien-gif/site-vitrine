@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:'Montserrat',serif;
+    background: url(image/image\ bag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+body h1{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+section{
+    padding:20px 20px 20px 20px;
+}
+        /*attribut*/
+.part1{
+    margin-left: 100px;
+}
+.part1 img{
+    height: 200px;
+    width: 200px;
+    margin-left: ;
+}
+.card1{
+    border-radius: 5px;
+}
+.part2{
+    margin-top:-809px;
+    margin-left:400px;
+}
+.part2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.part3{
+    margin-top:-809px;
+    margin-left:700px;
+}
+.part3 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.part4{
+    margin-top:-809px;
+    margin-left:1000px;
+}
+.part4 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.card1:hover{
+    transform: scale(1.1);
+    width: 6.6cm;
+    cursor: pointer;
+}
+
+        /*responsive design*/
+    @media screen and (max-width:380px) {
+        body{
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-left:20px;
+            }
+            body h1{
+                margin-left: 25px;
+                font-weight: 100;
+            } 
+            .part1 {
+                margin-left:20px;
+            }
+            .part2{
+            margin-left: 20px;
+            margin-top: 0px;
+            }
+            .part3{
+            margin-left: 20px;
+            margin-top: 0px;
+            }
+            .part4{
+            margin-left: 20px;
+            margin-top: 0px;
+            }
+}
